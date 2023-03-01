@@ -381,7 +381,7 @@ if Placed==1:
     print("Your order is placed")
     print("THANKS FOR SHOPPING WITH US !! ")
 else:
-    print("Order Again !")
+    print("order again!")
 
 
 
