@@ -378,8 +378,14 @@ print("Order Total:           ",total_with_delivery)
 print("Enter 1 to place your order")
 Placed=int(input())
 if Placed==1:
-    print("Your order is placed")
+    print("your oder successful")
     print("THANKS FOR SHOPPING WITH US !! ")
+if placed==2:
+    print("sign to your bank account")
+    print("enter the account number and ifsc code of bank branch")
+    print("search for branch")
+    print("enter the amount and pay")
+    print("order done")
 else:
     print("Order Again !")
 
