@@ -368,7 +368,13 @@ method=int(input())
 if method==1:
     print("UPI Application will be opened")
 elif method==2:
-    print("Banking Application will be opened")
+    print(" Net Banking Application will be opened")
+elif method==3:
+    print("RTGS/NEFT Application will be opened")
+elif method==4:
+    print("Credit Card Application will be opened")
+elif method==5:
+    print("Debit Card Application will be opened") 
 print()
 print("Shipping to:",address)
 print("Total:                 ",Total)
@@ -378,7 +384,7 @@ print("Order Total:           ",total_with_delivery)
 print("Enter 1 to place your order")
 Placed=int(input())
 if Placed==1:
-    print("your oder successful")
+    print("your order successful")
     print("THANKS FOR SHOPPING WITH US !! ")
 if placed==2:
     print("sign to your bank account")
@@ -386,6 +392,23 @@ if placed==2:
     print("search for branch")
     print("enter the amount and pay")
     print("order done")
+if placed==3:
+    print("CHALLAN Application will be opened")
+    print("Make the challan by enterting the details")
+    print("Now fill the Check and sign for neft/rtgs")
+    print("After the payment is done ")
+    print("order placed")
+if placed==4:
+    print("Enter the details of Credit card ")
+    print("Enter the Card Number and Card Expiry Date")
+    print("An OTP will be generated and send to you on your registered mobile number")
+    print("Enter the OTP ")
+    print("ORDER SUCCESSFUL")
+if placed==5:
+    print("Debit Card Application will be opened ")
+    print("Enter the Card Details Correctly")
+    print("OTP WILL BE SENT ")
+    print("ORDER DONE")
 else:
     print("Order Again !")
 
