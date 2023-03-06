@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# DAPINDER SINGH
 
 
 # ONLINE ORDER PLACING SYSTEM:-
@@ -27,21 +27,21 @@ a=input("Enter your name : ")
 print()
 print("HELLO!",a,"WELCOME TO RAYMOND_WORLD!")
 print()
-print("Choose the category :- ")
+print("Choose the category of fibre :- ")
 print()
 b="Pure Cotton________________45/48/50"
-c="Mix Cotton_________________52/55"
-d="Synthetic__________________58/60"
-e="Silk_______________________95/100"
+c="Mix Cotton_________________52/55/60"
+d="Synthetic__________________58/60/65"
+e="Silk_______________________95/100/120"
 print("1",b)
 print("2",c)
 print("3",d)
 print("4",e)
 print()
-f=int(input("Enter the serial number of category : "))
+f=int(input("Enter the fibre number of category : "))
 print()
 if f==1:
-    print("Select the quality of Cotton : ")
+    print("Select the quality of  Pure Cotton : ")
     print("1___Rs.45/Mtr.")
     print("2___Rs.48/Mtr.")
     print("3___Rs.50/Mtr.")
@@ -234,6 +234,7 @@ elif f==2:
     print("Select the quality of Mix Cotton : ")
     print("1__Rs.52/Mtr.")
     print("2___Rs.55/Mtr.")
+    print("3___Rs.60/Mtr.")
     print()
     f52=int(input("Enter the serial number of quality : "))
     print()
@@ -248,6 +249,7 @@ elif f==2:
         if more1==1:
             print("1___Rs.52/Mtr.")
             print("2___Rs.55/Mtr.")
+            print("3___Rs.60/Mtr.")
             f55=int(input("Enter the serial number of quality : "))
             print()
             if f55==1:
@@ -264,6 +266,7 @@ elif f==2:
         if more1==1:
             print("1___Rs.52/Mtr.")
             print("2___Rs.55/Mtr.")
+            print("3___Rs.60/Mtr.")
             f55=int(input("Enter the serial number of quality : "))
             print()
             if f55==1:
@@ -273,6 +276,7 @@ elif f==3:
     print("Select the quality of Synthetic : ")
     print("1__Rs.58/Mtr.")
     print("2___Rs.60/Mtr.")
+     print("3___Rs.65/Mtr.")
     print()
     f58=int(input("Enter the serial number of quality : "))
     print()
@@ -287,6 +291,7 @@ elif f==3:
         if more1==1:
             print("1___Rs.58/Mtr.")
             print("2___Rs.60/Mtr.")
+            print("3___Rs.65/Mtr.")
             f60=int(input("Enter the serial number of quality : "))
             print()
             if f60==1:
@@ -303,6 +308,8 @@ elif f==3:
         if more1==1:
             print("1___Rs.58/Mtr.")
             print("2___Rs.60/Mtr.")
+            print("3___Rs.65/Mtr.")
+            
             f60=int(input("Enter the serial number of quality : "))
             print()
             if f60==1:
@@ -326,6 +333,7 @@ elif f==4:
         if more1==1:
             print("1___Rs.95/Mtr.")
             print("2___Rs.100/Mtr.")
+            print("3___Rs.120/Mtr.")
             f100=int(input("Enter the serial number of quality : "))
             print()
             if f100==1:
@@ -342,6 +350,7 @@ elif f==4:
         if more1==1:
             print("1___Rs.95/Mtr.")
             print("2___Rs.100/Mtr.")
+             print("3___Rs.120/Mtr.")
             f100=int(input("Enter the serial number of quality : "))
             print()
             if f100==1:
