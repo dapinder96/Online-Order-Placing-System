@@ -420,6 +420,10 @@ if placed==5:
     print("ORDER DONE")
 else:
     print("Order Again !")
+    print("Sorry Your Order not placed ")
+    print("proceed after some time")
+    print("ORDER AGAIN ")
+    
 
 
 
