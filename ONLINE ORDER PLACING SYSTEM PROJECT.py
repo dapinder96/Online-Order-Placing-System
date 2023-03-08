@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 # ONLINE-ORDER-PLACING-SYSTEM-PROJECT
-
+# GIT-HUB SOURCE CODE MANAGEMENT 
 # DAPINDER SINGH
 
 
@@ -398,8 +398,8 @@ if Placed==1:
     print("your order successful")
     print("THANKS FOR SHOPPING WITH US !! ")
 if placed==2:
-    print("sign to your bank account")
-    print("enter the account number and ifsc code of bank branch")
+    print("sign in to your bank account")
+    print("enter the account number and ifsc code of your bank branch")
     print("search for branch")
     print("enter the amount and pay")
     print("order done")
@@ -425,6 +425,7 @@ else:
     print("Sorry Your Order not placed ")
     print("proceed after some time")
     print("ORDER AGAIN ")
+    
     
 
 
