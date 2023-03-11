@@ -372,8 +372,8 @@ elif method==2:
 print()
 print("Shipping to:",address)
 print("Total:                 ",Total)
-print("Delivery charges:       7999")
-total_with_delivery=Total + 7999
+print("Delivery charges:       5000")
+total_with_delivery=Total + 5000
 print("Order Total:           ",total_with_delivery)
 print("Enter 1 to place your order")
 Placed=int(input())
