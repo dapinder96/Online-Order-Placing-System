@@ -295,7 +295,7 @@ elif f==3:
     elif f58==2:
         f_58=int(input("Quantity (in mtrs.): "))
         print()
-        print("Want to buy other qualities in Synthetic ?")
+        print("Want to buy other qualities in Synthetic?")
         print("Type 1 for 'YES'")
         print("Type 2 for 'NO'")
         more1=int(input())
@@ -303,7 +303,7 @@ elif f==3:
         if more1==1:
             print("1___Rs.58/Mtr.")
             print("2___Rs.60/Mtr.")
-            f60=int(input("Enter the serial number of quality : "))
+            f60=int(input("Enter the serial no. of quality : "))
             print()
             if f60==1:
                 f_60=int(input("Quantity (in mtrs.): "))
