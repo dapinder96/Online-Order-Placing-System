@@ -6,6 +6,7 @@
 
 
 
+
 # ONLINE ORDER PLACING SYSTEM:-
 cf45=0
 cf48=0
@@ -375,6 +376,9 @@ print("Please choose your payment method")
 print()
 print("1___UPI")
 print("2___NET Banking")
+print("3___RTGS/NEFT")
+print("4___Credit Card")
+print("5___Debit Card")
 method=int(input())
 if method==1:
     print("UPI Application will be opened")
@@ -389,8 +393,8 @@ elif method==5:
 print()
 print("Shipping to:",address)
 print("Total:                 ",Total)
-print("Delivery charges:       7999")
-total_with_delivery=Total + 7999
+print("Delivery charges:       3999")
+total_with_delivery=Total + 3999
 print("Order Total:           ",total_with_delivery)
 print("Enter 1 to place your order")
 Placed=int(input())
