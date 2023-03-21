@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+
 # coding: utf-8
 # ONLINE-ORDER-PLACING-SYSTEM-PROJECT
 # GIT-HUB SOURCE CODE MANAGEMENT 
@@ -393,8 +393,8 @@ elif method==5:
 print()
 print("Shipping to:",address)
 print("Total:                 ",Total)
-print("Delivery charges:       3999")
-total_with_delivery=Total + 3999
+print("Delivery charges:       4999")
+total_with_delivery=Total + 4999
 print("Order Total:           ",total_with_delivery)
 print("Enter 1 to place your order")
 Placed=int(input())
