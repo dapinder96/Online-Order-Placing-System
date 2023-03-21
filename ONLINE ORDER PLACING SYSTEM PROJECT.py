@@ -360,6 +360,8 @@ elif f==4:
                 f_200=int(input("Quantity (in mtrs.): "))
                 print()
 print("Enter your shipping address")
+print("Enter your House Number")
+print("Enter nearby Location")
 address=input()
 cf45+=f_45*45
 cf48+=f_48*48
