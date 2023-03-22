@@ -3,6 +3,8 @@
 # ONLINE-ORDER-PLACING-SYSTEM-PROJECT
 # GIT-HUB SOURCE CODE MANAGEMENT 
 # DAPINDER SINGH
+# HARKIRAT SINGH
+
 
 
 
@@ -433,6 +435,8 @@ else:
     print("For any Further query Contact  us on our Customer Helpline Number:")
     print("Our Team Members will there to resolve your issue ")
     print("Helpline Nnumber is :0211223344")
+    print("THANK YOU FOR CONTACTING RAYMOND WORLD")
+    
     
 
     
