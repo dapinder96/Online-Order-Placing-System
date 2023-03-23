@@ -29,6 +29,7 @@ f_60=0
 f_95=0
 f_100=0
 a=input("Enter your name : ")
+print("Enter your login password:")
 print()
 print("HELLO!",a,"WELCOME TO RAYMOND_WORLD!")
 print()
