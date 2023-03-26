@@ -378,7 +378,7 @@ print("Order Total:           ",total_with_delivery)
 print("Enter 1 to place your order")
 Placed=int(input())
 if Placed==1:
-    print("Your order is placed successfully")
+    print("Your order is placed successfully!")
     print("THANKS FOR SHOPPING WITH US !! ")
 else:
     print("order again!")
