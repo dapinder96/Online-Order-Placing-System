@@ -407,7 +407,7 @@ print("Order Total:           ",total_with_delivery)
 print("Enter 1 to place your order")
 Placed=int(input())
 if Placed==1:
-    print("your order successful")
+    print("your order is successful done")
     print("THANKS FOR SHOPPING WITH US !! ")
 if placed==2:
     print("sign in to your bank account")
