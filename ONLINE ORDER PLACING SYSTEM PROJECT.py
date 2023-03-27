@@ -431,6 +431,7 @@ if placed==5:
     print("Debit Card Application will be opened ")
     print("Enter the Card Details Correctly")
     print("OTP WILL BE SENT ")
+    print("")
     print("ORDER DONE")
 else:
     print("Sorry Your Order not placed ")
