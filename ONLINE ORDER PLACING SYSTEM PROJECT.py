@@ -287,7 +287,7 @@ elif f==3:
         if more1==1:
             print("1___Rs.58/Mtr.")
             print("2___Rs.60/Mtr.")
-            f60=int(input("Enter the serial number of quality : "))
+            f60=int(input("Enter the serial number of the quality : "))
             print()
             if f60==1:
                 f_60=int(input("Quantity (in mtrs.): "))
