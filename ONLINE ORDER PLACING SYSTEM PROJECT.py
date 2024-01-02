@@ -124,7 +124,7 @@ if f==1:
             f48=int(input("Enter the serial number of quality : "))
             print()            
             if f48==2:
-                f_48=int(input("Quantity (in mtrs.): "))
+                f_48=int(input("Quantity (in mtr.): "))
                 print()
                 print("Want to buy other qualities in Cotton ?")
                 print("Type 1 for 'YES'")
